@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Beauty Salon - Transform Your Beauty</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Luxe Beauty</h1>
+            <p>Where elegance meets transformation. Discover your most radiant self.</p>
+            <a href="#contact" class="cta-button">Book Your Experience</a>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Signature Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Facial Treatments</h3>
+                    <p>Rejuvenate your skin with our premium facial treatments using the latest techniques and luxury products for a radiant, youthful glow.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💇</div>
+                    <h3>Hair Styling</h3>
+                    <p>Transform your look with our expert stylists who create stunning cuts, colors, and styles tailored to your unique personality.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💅</div>
+                    <h3>Nail Care</h3>
+                    <p>Perfect your nails with our professional manicure and pedicure services, featuring the latest trends and premium nail art.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌸</div>
+                    <h3>Spa Treatments</h3>
+                    <p>Indulge in our luxurious spa treatments designed to relax your body and mind while enhancing your natural beauty.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👁️</div>
+                    <h3>Lash & Brow</h3>
+                    <p>Frame your eyes beautifully with our expert lash extensions, lifts, and precision eyebrow shaping and tinting services.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💖</div>
+                    <h3>Bridal Packages</h3>
+                    <p>Look absolutely stunning on your special day with our comprehensive bridal beauty packages and trial sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Experience Excellence in Beauty</h2>
+                    <p>At Luxe Beauty, we believe that true beauty comes from feeling confident and radiant in your own skin. Our team of skilled professionals is dedicated to providing you with exceptional service in a luxurious, relaxing environment.</p>
+                    <p>With years of experience and a passion for the latest beauty trends, we offer personalized treatments that enhance your natural beauty and leave you feeling refreshed and renewed.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Expert Stylists</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div style="width: 100%; height: 400px; background: linear-gradient(45deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1)); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: rgba(255,255,255,0.6); backdrop-filter: blur(10px);">
+                        🌟
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Visit Us</strong><br>
+                            123 Beauty Avenue<br>
+                            Downtown, City 12345
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Call Us</strong><br>
+                            (555) 123-LUXE<br>
+                            Available 9AM - 8PM
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <strong>Email Us</strong><br>
+                            hello@luxebeauty.com<br>
+                            We'll respond within 24 hours
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <strong>Hours</strong><br>
+                            Mon-Sat: 9AM-8PM<br>
+                            Sun: 10AM-6PM
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form">
+                    <h3 style="margin-bottom: 30px; font-size: 1.8rem; color: #ff6b6b;">Book Your Appointment</h3>
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Preferred Service</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="facial">Facial Treatment</option>
+                                <option value="hair">Hair Styling</option>
+                                <option value="nails">Nail Care</option>
+                                <option value="spa">Spa Treatment</option>
+                                <option value="lash">Lash & Brow</option>
+                                <option value="bridal">Bridal Package</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any special requests or preferences?"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Link to external JS -->
+    <script src="main.js"></script>
+</body>
+</html>
